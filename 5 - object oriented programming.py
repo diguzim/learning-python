@@ -56,6 +56,6 @@ class Cat(Animal):
     def make_sound(self):
         print("meow!")
 
-animals = [Dog("Rex"), Cat("Tom"), Person("Rodrigo", 30)]
+animals = [Dog("Rex"), Cat("Tom")]
 for animal in animals:
     animal.make_sound()
